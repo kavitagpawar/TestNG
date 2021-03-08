@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name = "Suit1">
+<!--	<test name= "Test1">
+	
+  	<classes>
+		<class name="com.tetng.ExceptionTimeOutTest" />
+		<class name="com.tetng.GoogleTest" />
+		<class name="com.tetng.GoogleTitleTest" />
+		<class name="com.tetng.TestNGBasics" />
+		<class name="com.tetng.InvocationCountTest" />
+		<class name="com.tetng.TestNGFeatures" />
+	</classes>  
+	
+	
+	</test>-->
+	
+	<test name= "Yahoo App test">
+		<parameter name= "url" value="https://login.yahoo.com/"/>
+		<parameter name= "emailId" value="kavitagpawar@yahoo.com"/>
+		<classes>
+				<class name= "com.parameters.ParameterTest"/>
+		</classes>		
+	</test>
+</suite>
